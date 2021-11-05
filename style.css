@@ -127,7 +127,7 @@ h6 {
 
 /* ============ HOME =============== */
 .back {
-    background-image: url(/images/6.jpg);
+    background-image: url(/images/3.jpg);
     width: 100%;
     height: 120vh;
     background-size: cover;
@@ -281,7 +281,132 @@ h6 {
 
 
 /* ============ OFFERS =============== */
+.offers {
+    display: block;
+    text-align: center;
+}
+
+.offers .account-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offers h6 {
+    margin-bottom: 6rem;
+}
+
+.hospital-card {
+    width: 355px;
+    height: 100%;
+    border: 1px solid #535cf1;
+    border-radius: 20px;
+}
+
+.hospital-card h3 {
+    text-align: center;
+    font-weight: 300;
+    padding: 40px 0;
+    background-color: #ecf0f1;
+    transition: all ease 0.6s;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.hospital-card:hover h3 {
+    background-image: linear-gradient(to right, #535cf1, #a147e4);  
+    color: #fff;
+}
+
+.patient-card h3 {
+    background-image: linear-gradient(to right, #535cf1, #a147e4);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    color: #fff;
+}
+
+.price {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sign {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.currency {
+    font-size: 60px;
+    letter-spacing: -2px;
+    font-weight: 300;
+    line-height: 60px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.cent {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 400;
+    vertical-align: bottom;
+}
+
+.month {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    vertical-align: bottom;
+}
+
+.offers .hospital-card ul li {
+    border-top: 1px solid #ccc;
+    padding: 18px 0;
+    border-bottom: 1px solid #ccc;
+    color: #7f8c8d;
+}
+
+.offers .hospital-card ul li i {
+    padding-right: 5px;
+    color: #535cf1;
+}
+
+.offers .header-btn {
+    margin: 2rem auto;
+    width: 170px;
+}
+
+.offers .header-btn a {
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 50px;
+    outline: medium none;
+    border: 1px solid #2ecc71;
+    color: #1d1d1d;
+}
+
+.offers .hospital-card:hover .header-btn a  {
+    background-image: linear-gradient(to right, #535cf1, #a147e4);
+    color: #fff;
+    border: 1px solid #2ecc71;
+}
+
+.offers .patient-card .header-btn a {
+    background-image: linear-gradient(to right, #535cf1, #a147e4);
+    color: #fff;
+    border: 1px solid #2ecc71;
+}
+
+
+
+
 /* ============ CONTACT =============== */
+
+
+
 /* ============ FOOTER =============== */
 
 
