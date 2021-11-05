@@ -32,8 +32,31 @@ h6 {
     margin-top: 1rem;
 }
 
+.main-btn {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 2px solid transparent;
+    padding: 0 2rem;
+    font-size: 1rem;
+    line-height: 3rem;
+    color: #0067f4;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.4s ease-out 0s;
+    z-index: 5;
+}
+
+.main-btn:hover {
+    transform: translateY(-11px);
+}
+
 /* ============ NAVIGATION =============== */
 .nav {
+    position: fixed;
+    z-index: 1000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -103,7 +126,91 @@ h6 {
 
 
 /* ============ HOME =============== */
-/* ============ SERVICES =============== */
+.back {
+    background-image: url(/images/6.jpg);
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.back .overlay {
+    background: linear-gradient(rgba(232, 237, 255, 0.9) 0%, rgba(239, 254, 255, 0.8) 40%, rgba(255, 255, 255, 0.1) 81%);
+    width: 100%;
+    height: 100%;
+}
+
+.back .hero-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.back .hero-shape img {
+    width: 100%;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-text h6 {
+    color: #1d1d1d;
+}
+
+.header-btns {
+    margin-top: 22px;
+}
+
+.header-btn {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+
+.header-btns .header-btn .main-btn {
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 0;
+    line-height: 50px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.header-btns .header-btn .btn-one {
+    color: #fff;
+
+}
+
+.header-btns .header-btn .btn-one::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #535cf1, #a147e4);
+    z-index: -1;
+    transition: all 0.3s ease;
+    background-position: right center;
+
+}
+
+.header-btns .header-btn .btn-one:hover::before {
+    background-image: linear-gradient(to left, #535cf1, #a147e4);
+    background-position: left center;
+}
+
+
+
+
+/* ============ ABOUT =============== */
 /* ============ OFFERS =============== */
 /* ============ CONTACT =============== */
 /* ============ FOOTER =============== */
