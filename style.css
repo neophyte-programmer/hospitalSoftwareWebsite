@@ -211,6 +211,75 @@ h6 {
 
 
 /* ============ ABOUT =============== */
+#wrapper {
+    margin: 5rem 7rem 10rem 7rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about h6 {
+    margin-bottom: 6rem;
+}
+
+.about-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-box .box {
+    width: 60%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-box .box .box-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.about-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #535cf1;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: justify;
+}
+
+.about-img {
+    width: 40%;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+
 /* ============ OFFERS =============== */
 /* ============ CONTACT =============== */
 /* ============ FOOTER =============== */
