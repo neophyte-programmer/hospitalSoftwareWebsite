@@ -1,0 +1,98 @@
+/* ============ BASE =============== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h3 {
+    font-size: 44px;
+    line-height: 55px;
+    color: #121212;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 20px;
+    line-height: 2rem;
+    color: #6c6c6c;
+    margin-top: 1rem;
+}
+
+/* ============ NAVIGATION =============== */
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 6.5rem;
+    background: transparent;
+    transition: all 0.5s ease;
+}
+
+.nav .navbar-toggler {
+    display: none; 
+}
+
+.nav .menu-bar .menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    margin: 0 1rem;
+}
+
+.item-link {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.item-link:hover {
+    color: #4f47e4;
+}
+
+.navbar-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+/* ============ HOME =============== */
+/* ============ SERVICES =============== */
+/* ============ OFFERS =============== */
+/* ============ CONTACT =============== */
+/* ============ FOOTER =============== */
+
+
+
+
