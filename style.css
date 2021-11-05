@@ -76,12 +76,27 @@ h6 {
     align-items: center;
 }
 
+.navbar-social span {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-right: 10px;
+    color: #6c6c6c;
+}
+
 .nav-social-icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
 
+.nav-social-icon {
+    margin: 0 0.5rem;
+}
+
+.nav-social-link {
+    color: #6c6c6c;
+    font-size: 22px;
 }
 
 
