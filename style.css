@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -221,6 +225,7 @@ h6 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 10rem;
 }
 
 .about h6 {
@@ -284,6 +289,7 @@ h6 {
 .offers {
     display: block;
     text-align: center;
+    margin-bottom: 10rem;
 }
 
 .offers .account-cards {
@@ -304,6 +310,11 @@ h6 {
     border-radius: 20px;
 }
 
+.hospital-card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
 .hospital-card h3 {
     text-align: center;
     font-weight: 300;
@@ -318,6 +329,7 @@ h6 {
 .hospital-card:hover h3 {
     background-image: linear-gradient(to right, #535cf1, #a147e4);  
     color: #fff;
+    
 }
 
 .patient-card h3 {
@@ -400,11 +412,68 @@ h6 {
     border: 1px solid #2ecc71;
 }
 
-
-
-
 /* ============ CONTACT =============== */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
 
+.contact h6 {
+    margin-bottom: 3rem;
+}
+
+.contact-form {
+    width: 70%;
+}
+
+.contact-form .first-row, .contact-form .second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.contact-form .first-row input, .contact-form .second-row input {
+    width: 47%;
+    height: 56px;
+    border: 1px solid #cbced1;
+    border-radius: 5px;
+    padding: 0 1rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+.contact-form textarea {
+    width: 100%;
+    resize: none;
+    border: 1px solid #cbced1;
+    border-radius: 5px;
+    padding: 0 1rem;
+    font-size: 1rem;
+    outline: none;
+    font-family: inherit;
+    padding-top: 1rem;
+}
+
+.contact-form .header-btn {
+    margin: 2rem auto;
+    width: 170px;
+
+}
+
+.contact-form .header-btn a {
+    background-image: linear-gradient(to right, #535cf1, #a147e4);
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: normal;
+    outline: none;
+    border-radius: 25px;
+}
 
 
 /* ============ FOOTER =============== */
