@@ -478,6 +478,106 @@ h6 {
 
 /* ============ FOOTER =============== */
 
+footer {
+    background-color: #f4f6f7;
+    padding: 7rem;
+}
 
+footer .row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+.footer-social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
 
+.footer-social-link {
+    padding-right: 20px;
+    font-size: 1.625rem;
+    color: #6c6c6c;
+
+}
+
+footer .second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+footer .second-row h6 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1rem;
+    color: #6c6c6c;
+    padding-bottom: 20px;   
+}
+
+footer .second-row li {
+    padding-bottom: 12px;
+}
+
+footer .second-row li a {
+    font-size: 1rem;
+    line-height: 24px;  
+    font-weight: 500;
+    color: #121212;
+}
+
+footer .second-row .column-four {
+    max-width: 300px;
+}
+
+footer .second-row .newsletter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 5px;
+}
+
+footer .second-row .newsletter input {
+    width: 100%;
+    height: 44px;
+    border-radius: 50px;
+    padding: 0 24px;
+    border: 0;
+    background-color: rgba(33, 33, 33, 0.12);
+    font-weight: 500;
+    outline: none;
+
+}
+
+footer .second-row .newsletter input::placeholder {
+    opacity: 1;
+    color: #6c6c6c;
+}
+
+footer .second-row .newsletter button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer-text {
+    margin-top: 1rem;
+
+}
+
+/* ============ BOTTOM BAR =============== */
