@@ -71,6 +71,12 @@ h6 {
     transition: all 0.5s ease;
 }
 
+.scroll-header{
+    background-color: rgba(255, 255, 255, 0.89) !important;
+    transition: background-color 200ms linear;
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
 .nav .navbar-toggler {
     display: none; 
 }
@@ -479,7 +485,7 @@ h6 {
 /* ============ FOOTER =============== */
 
 footer {
-    background-color: #f4f6f7;
+    background-color: #d8dadb;
     padding: 7rem;
 }
 
@@ -581,3 +587,17 @@ footer .second-row .newsletter button {
 }
 
 /* ============ BOTTOM BAR =============== */
+.copyright {
+    background-color: #121212;
+    padding: 1.625rem 0;
+}
+
+.copyright p {
+    text-align: center;
+    color: #fff;
+}
+
+.copyright p a {
+    color: #1abc9c;
+}
+
