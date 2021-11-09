@@ -180,6 +180,7 @@ h6 {
 
 .hero-text h6 {
     color: #1d1d1d;
+    font-weight: 500;
 }
 
 .header-btns {
@@ -609,7 +610,6 @@ footer .second-row .newsletter button {
 }
 
 /* ============ MEDIA QUERIES =============== */
-
 @media only screen and (max-width: 946px) {
     .nav {
         padding: 1rem 3rem;
@@ -684,31 +684,165 @@ footer .second-row .newsletter button {
         width: 80%;
     }
 
-    footer .row-one  {
-         align-items: center;
-         justify-content: center;
+    footer .second-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: wrap;
     }
-   footer .second-row{
-       display: block;
-       align-items: center;
-   }
-
-   footer .extra {
-       display: flex;
-       justify-content: space-around;
-       align-items: flex-start;
-   }
-
-   footer .extra .column {
-       padding: 2rem;
-   }
   
 }
 
 @media only screen and (max-width: 774px) {
+    .nav {
+        padding: 0.7rem 1rem;
+    }
+    
+    .nav .navbar-toggler {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 1rem;
+        z-index: 100000;
+    }
+
+    .nav .menu-bar {
+        position: fixed;
+        top: 40px;
+        right: -360px;
+        width: 300px;
+        height: 100vh;
+        background-color: rgba(256, 256, 256, 0.9);
+        transition: all 0.6s ease;
+    }
+    
+    .nav .menu-bar .menu-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: justify;
+        padding: 40px 0;
+    }
+    
+    .menu-item {
+        margin: 2rem 30px;
+    }
+    
+    .hero-text {
+        width: 80%;
+    }
+    
+    .hero-text h6 {
+        font-size: 1rem;
+    }
+    
+    #wrapper {
+        margin: 5rem 1rem 10rem 1rem;
+    }
+
+    .about h3 {
+        font-size: 33px;
+    }
+
+    .about h6 {
+        font-size: 1rem;
+    }
+
+    .about-img {
+        width: 90%;
+        margin-bottom: 5rem;
+    }
+
+    .offers h3 {
+        font-size: 33px;
+    }
+
+    .offers h6 {
+        font-size: 1rem;
+    }
+    
+    .offers .account-cards {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    
+    .hospital-card {
+        margin-bottom: 3rem;
+    }
+
+    .contact-form h3 {
+        font-size: 33px;
+    }
+
+    .contact-form h6 {
+        font-size: 1rem;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    footer {
+        padding: 4rem 1rem;
+    }  
+
+    footer .second-row {
+        flex-direction: wrap;
+    }
+
+    footer .second-row .column {
+        margin-bottom: 1rem;
+    }
     
 }
 
 @media only screen and (max-width: 541px) {
+    .about-box .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
     
+    .about-box .box .box-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+    
+    .about-content {
+        text-align: left;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-form .first-row, .contact-form .second-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .contact-form .first-row input, .contact-form .second-row input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .extra {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
