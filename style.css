@@ -669,6 +669,39 @@ footer .second-row .newsletter button {
         width: 100%;
         margin-bottom: 5rem;
     }
+
+    
+    .offers .account-cards {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .hospital-card {
+        margin-bottom: 3rem;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    footer .row-one  {
+         align-items: center;
+         justify-content: center;
+    }
+   footer .second-row{
+       display: block;
+       align-items: center;
+   }
+
+   footer .extra {
+       display: flex;
+       justify-content: space-around;
+       align-items: flex-start;
+   }
+
+   footer .extra .column {
+       padding: 2rem;
+   }
   
 }
 
