@@ -608,3 +608,74 @@ footer .second-row .newsletter button {
     color: #1abc9c;
 }
 
+/* ============ MEDIA QUERIES =============== */
+
+@media only screen and (max-width: 946px) {
+    .nav {
+        padding: 1rem 3rem;
+    }
+
+    .navbar-social {
+        display: none;
+    }
+
+    .hero-text {
+        width: 60%;
+    }
+
+    .hero-text h3 {
+        font-size: 33px;
+    }
+
+    #wrapper {
+        margin: 5rem 3rem 10rem 3rem;
+    }
+
+    .about {
+        margin-bottom: 3rem;
+    }
+
+    .about h6 {
+        margin-bottom: 3rem;
+    }
+
+    /* .about-content {
+        text-align: left;
+    }
+
+
+    .about-box .box .box-one {
+        justify-content: space-around;
+        padding: 10px 10px;
+    } */
+
+    .about-box {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .about-box .box {
+        width: 100%;
+    }
+    
+    .about-box .box .box-one {
+        justify-content: center; 
+        align-items: center;
+        text-align: center;
+    }
+    
+    .about-img {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+  
+}
+
+@media only screen and (max-width: 774px) {
+    
+}
+
+@media only screen and (max-width: 541px) {
+    
+}
